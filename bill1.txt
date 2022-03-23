@@ -1,0 +1,6 @@
+Order 1
+Date/time: Thu May 27 21:47:09 EEST 2021
+Products: 
+BaseProduct title = 'Shrimp Sates with Spiced Pistachio Chutney ', rating = 3.75, calories = 23, protein = 1, fat = 2, sodium = 4, price = 78
+BaseProduct title = 'Cauliflower-Leek Purée ', rating = 3.125, calories = 23, protein = 2, fat = 0, sodium = 149, price = 13
+Total price: 91

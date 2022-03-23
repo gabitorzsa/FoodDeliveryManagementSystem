@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="4.0" y="235.0">business.UserService</node>
+    <node x="414.5" y="80.0">business.DeliveryService</node>
+    <node x="0.0" y="385.0">presentation.RegisterGUI</node>
+    <node x="350.0" y="385.0">presentation.ClientGUI</node>
+    <node x="452.0" y="460.0">model.User</node>
+    <node x="98.25" y="0.0">model.MenuItem</node>
+    <node x="514.0" y="385.0">presentation.SearchGUI</node>
+    <node x="0.0" y="155.0">business.interfaces.IUserService</node>
+    <node x="198.5" y="155.0">presentation.Observer</node>
+    <node x="179.0" y="385.0">Observable</node>
+    <node x="429.0" y="310.0">data.SerializerUser</node>
+    <node x="0.0" y="460.0">presentation.UIManager</node>
+    <node x="320.0" y="460.0">model.Order</node>
+    <node x="366.0" y="155.0">data.SerializerDelivery</node>
+    <node x="154.0" y="80.0">model.CompositeProduct</node>
+    <node x="164.0" y="460.0">presentation.LoginGUI</node>
+    <node x="372.0" y="0.0">business.interfaces.IDeliveryServiceProcessing</node>
+    <node x="0.0" y="80.0">model.BaseProduct</node>
+    <node x="218.0" y="310.0">data.ReportGenerator</node>
+    <node x="187.0" y="235.0">presentation.EmployeeGUI</node>
+    <node x="0.0" y="535.0">Main</node>
+    <node x="0.0" y="310.0">presentation.AdministratorGUI</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="business.DeliveryService" target="business.interfaces.IDeliveryServiceProcessing">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.CompositeProduct" target="model.MenuItem">
+      <point x="0.0" y="-15.0" />
+      <point x="240.5" y="55.0" />
+      <point x="181.5" y="55.0" />
+      <point x="27.75" y="15.0" />
+    </edge>
+    <edge source="presentation.EmployeeGUI" target="presentation.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="business.UserService" target="business.interfaces.IUserService">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.BaseProduct" target="model.MenuItem">
+      <point x="0.0" y="-15.0" />
+      <point x="67.0" y="55.0" />
+      <point x="126.0" y="55.0" />
+      <point x="-27.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="145.0" y="-26.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

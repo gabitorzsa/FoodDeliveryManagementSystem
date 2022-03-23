@@ -1,0 +1,7 @@
+Order 2
+Date/time: Thu May 27 22:30:55 EEST 2021
+Products: 
+BaseProduct title = 'The Original Three-Ingredient Rub ', rating = 0.0, calories = 23, protein = 1, fat = 1, sodium = 6, price = 47
+BaseProduct title = 'Shrimp Sates with Spiced Pistachio Chutney ', rating = 3.75, calories = 23, protein = 1, fat = 2, sodium = 4, price = 78
+BaseProduct title = 'Coriander-Herb Spice Rub ', rating = 3.75, calories = 24, protein = 1, fat = 1, sodium = 1911, price = 51
+Total price: 176
